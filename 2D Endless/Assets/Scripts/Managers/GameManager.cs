@@ -120,7 +120,8 @@ public class GameManager : MonoBehaviour
     {
         if (!isGameOver && gameStarted)
         {
-            distanceTraveled += (Time.deltaTime * distanceIncreaseRate);
+            float currentDistanceRate = isBoosting ? distanceIncreaseRate * 5f : distanceIncreaseRate;
+            distanceTraveled += (Time.deltaTime * currentDistanceRate);
             uIManager.DisplayDistance(distanceTraveled);
         }
     }
