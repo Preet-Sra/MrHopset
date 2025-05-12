@@ -94,7 +94,6 @@ GameObject:
   m_Component:
   - component: {fileID: 9048626164403792626}
   - component: {fileID: 6253208829955622698}
-  - component: {fileID: 2543686079257072610}
   - component: {fileID: 9112128763296431654}
   m_Layer: 0
   m_Name: ShieldPowerUp
@@ -164,19 +163,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.71, y: 1.49}
   m_EdgeRadius: 0
---- !u!114 &2543686079257072610
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5193358282747830446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46c9b753e94c7d648beae092c6b50090, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pickupSound: {fileID: 9112128763296431654}
 --- !u!82 &9112128763296431654
 AudioSource:
   m_ObjectHideFlags: 0
